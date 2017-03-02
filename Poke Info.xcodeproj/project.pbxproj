@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0CE17061E685ABA00786900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE17051E685ABA00786900 /* AppDelegate.swift */; };
+		A0CE17081E685ABA00786900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE17071E685ABA00786900 /* ViewController.swift */; };
+		A0CE170B1E685ABA00786900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CE17091E685ABA00786900 /* Main.storyboard */; };
+		A0CE170D1E685ABA00786900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CE170C1E685ABA00786900 /* Assets.xcassets */; };
+		A0CE17101E685ABA00786900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CE170E1E685ABA00786900 /* LaunchScreen.storyboard */; };
+		A0CE171B1E685ABA00786900 /* Poke_InfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE171A1E685ABA00786900 /* Poke_InfoTests.swift */; };
+		A0CE17201E685ABA00786900 /* Poke Info WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A0CE171F1E685ABA00786900 /* Poke Info WatchKit App.app */; };
+		A0CE17261E685ABA00786900 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CE17241E685ABA00786900 /* Interface.storyboard */; };
+		A0CE17281E685ABA00786900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CE17271E685ABA00786900 /* Assets.xcassets */; };
+		A0CE172F1E685ABA00786900 /* Poke Info WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A0CE172E1E685ABA00786900 /* Poke Info WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0CE17361E685ABA00786900 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE17351E685ABA00786900 /* InterfaceController.swift */; };
+		A0CE17381E685ABA00786900 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE17371E685ABA00786900 /* ExtensionDelegate.swift */; };
+		A0CE173A1E685ABA00786900 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE17391E685ABA00786900 /* NotificationController.swift */; };
+		A0CE173C1E685ABA00786900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CE173B1E685ABA00786900 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CE17171E685ABA00786900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CE16FA1E685ABA00786900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CE17011E685ABA00786900;
+			remoteInfo = "Poke Info";
+		};
+		A0CE17211E685ABA00786900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CE16FA1E685ABA00786900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CE171E1E685ABA00786900;
+			remoteInfo = "Poke Info WatchKit App";
+		};
+		A0CE17301E685ABA00786900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CE16FA1E685ABA00786900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CE172D1E685ABA00786900;
+			remoteInfo = "Poke Info WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0CE17431E685ABA00786900 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0CE172F1E685ABA00786900 /* Poke Info WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE17471E685ABA00786900 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A0CE17201E685ABA00786900 /* Poke Info WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0CE17021E685ABA00786900 /* Poke Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poke Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE17051E685ABA00786900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0CE17071E685ABA00786900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0CE170A1E685ABA00786900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0CE170C1E685ABA00786900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CE170F1E685ABA00786900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0CE17111E685ABA00786900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE17161E685ABA00786900 /* Poke InfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poke InfoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE171A1E685ABA00786900 /* Poke_InfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke_InfoTests.swift; sourceTree = "<group>"; };
+		A0CE171C1E685ABA00786900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE171F1E685ABA00786900 /* Poke Info WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poke Info WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE17251E685ABA00786900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A0CE17271E685ABA00786900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CE17291E685ABA00786900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE172E1E685ABA00786900 /* Poke Info WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Poke Info WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE17341E685ABA00786900 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A0CE17351E685ABA00786900 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A0CE17371E685ABA00786900 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A0CE17391E685ABA00786900 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A0CE173B1E685ABA00786900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CE173D1E685ABA00786900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CE16FF1E685ABA00786900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE17131E685ABA00786900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE172B1E685ABA00786900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CE16F91E685ABA00786900 = {
+			isa = PBXGroup;
+			children = (
+				A0CE17041E685ABA00786900 /* Poke Info */,
+				A0CE17191E685ABA00786900 /* Poke InfoTests */,
+				A0CE17231E685ABA00786900 /* Poke Info WatchKit App */,
+				A0CE17321E685ABA00786900 /* Poke Info WatchKit Extension */,
+				A0CE17031E685ABA00786900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CE17031E685ABA00786900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE17021E685ABA00786900 /* Poke Info.app */,
+				A0CE17161E685ABA00786900 /* Poke InfoTests.xctest */,
+				A0CE171F1E685ABA00786900 /* Poke Info WatchKit App.app */,
+				A0CE172E1E685ABA00786900 /* Poke Info WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CE17041E685ABA00786900 /* Poke Info */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE17051E685ABA00786900 /* AppDelegate.swift */,
+				A0CE17071E685ABA00786900 /* ViewController.swift */,
+				A0CE17091E685ABA00786900 /* Main.storyboard */,
+				A0CE170C1E685ABA00786900 /* Assets.xcassets */,
+				A0CE170E1E685ABA00786900 /* LaunchScreen.storyboard */,
+				A0CE17111E685ABA00786900 /* Info.plist */,
+			);
+			path = "Poke Info";
+			sourceTree = "<group>";
+		};
+		A0CE17191E685ABA00786900 /* Poke InfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE171A1E685ABA00786900 /* Poke_InfoTests.swift */,
+				A0CE171C1E685ABA00786900 /* Info.plist */,
+			);
+			path = "Poke InfoTests";
+			sourceTree = "<group>";
+		};
+		A0CE17231E685ABA00786900 /* Poke Info WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE17241E685ABA00786900 /* Interface.storyboard */,
+				A0CE17271E685ABA00786900 /* Assets.xcassets */,
+				A0CE17291E685ABA00786900 /* Info.plist */,
+			);
+			path = "Poke Info WatchKit App";
+			sourceTree = "<group>";
+		};
+		A0CE17321E685ABA00786900 /* Poke Info WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE17351E685ABA00786900 /* InterfaceController.swift */,
+				A0CE17371E685ABA00786900 /* ExtensionDelegate.swift */,
+				A0CE17391E685ABA00786900 /* NotificationController.swift */,
+				A0CE173B1E685ABA00786900 /* Assets.xcassets */,
+				A0CE173D1E685ABA00786900 /* Info.plist */,
+				A0CE17331E685ABA00786900 /* Supporting Files */,
+			);
+			path = "Poke Info WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A0CE17331E685ABA00786900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE17341E685ABA00786900 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CE17011E685ABA00786900 /* Poke Info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE17481E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke Info" */;
+			buildPhases = (
+				A0CE16FE1E685ABA00786900 /* Sources */,
+				A0CE16FF1E685ABA00786900 /* Frameworks */,
+				A0CE17001E685ABA00786900 /* Resources */,
+				A0CE17471E685ABA00786900 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CE17221E685ABA00786900 /* PBXTargetDependency */,
+			);
+			name = "Poke Info";
+			productName = "Poke Info";
+			productReference = A0CE17021E685ABA00786900 /* Poke Info.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CE17151E685ABA00786900 /* Poke InfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE174B1E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke InfoTests" */;
+			buildPhases = (
+				A0CE17121E685ABA00786900 /* Sources */,
+				A0CE17131E685ABA00786900 /* Frameworks */,
+				A0CE17141E685ABA00786900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CE17181E685ABA00786900 /* PBXTargetDependency */,
+			);
+			name = "Poke InfoTests";
+			productName = "Poke InfoTests";
+			productReference = A0CE17161E685ABA00786900 /* Poke InfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CE171E1E685ABA00786900 /* Poke Info WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE17441E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke Info WatchKit App" */;
+			buildPhases = (
+				A0CE171D1E685ABA00786900 /* Resources */,
+				A0CE17431E685ABA00786900 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CE17311E685ABA00786900 /* PBXTargetDependency */,
+			);
+			name = "Poke Info WatchKit App";
+			productName = "Poke Info WatchKit App";
+			productReference = A0CE171F1E685ABA00786900 /* Poke Info WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A0CE172D1E685ABA00786900 /* Poke Info WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE17401E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke Info WatchKit Extension" */;
+			buildPhases = (
+				A0CE172A1E685ABA00786900 /* Sources */,
+				A0CE172B1E685ABA00786900 /* Frameworks */,
+				A0CE172C1E685ABA00786900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poke Info WatchKit Extension";
+			productName = "Poke Info WatchKit Extension";
+			productReference = A0CE172E1E685ABA00786900 /* Poke Info WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CE16FA1E685ABA00786900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bruno Tavares";
+				TargetAttributes = {
+					A0CE17011E685ABA00786900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R9YDVZ74V7;
+						ProvisioningStyle = Automatic;
+					};
+					A0CE17151E685ABA00786900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R9YDVZ74V7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0CE17011E685ABA00786900;
+					};
+					A0CE171E1E685ABA00786900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R9YDVZ74V7;
+						ProvisioningStyle = Automatic;
+					};
+					A0CE172D1E685ABA00786900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R9YDVZ74V7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A0CE16FD1E685ABA00786900 /* Build configuration list for PBXProject "Poke Info" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CE16F91E685ABA00786900;
+			productRefGroup = A0CE17031E685ABA00786900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CE17011E685ABA00786900 /* Poke Info */,
+				A0CE17151E685ABA00786900 /* Poke InfoTests */,
+				A0CE171E1E685ABA00786900 /* Poke Info WatchKit App */,
+				A0CE172D1E685ABA00786900 /* Poke Info WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CE17001E685ABA00786900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE17101E685ABA00786900 /* LaunchScreen.storyboard in Resources */,
+				A0CE170D1E685ABA00786900 /* Assets.xcassets in Resources */,
+				A0CE170B1E685ABA00786900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE17141E685ABA00786900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE171D1E685ABA00786900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE17281E685ABA00786900 /* Assets.xcassets in Resources */,
+				A0CE17261E685ABA00786900 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE172C1E685ABA00786900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE173C1E685ABA00786900 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CE16FE1E685ABA00786900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE17081E685ABA00786900 /* ViewController.swift in Sources */,
+				A0CE17061E685ABA00786900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE17121E685ABA00786900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE171B1E685ABA00786900 /* Poke_InfoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE172A1E685ABA00786900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE173A1E685ABA00786900 /* NotificationController.swift in Sources */,
+				A0CE17381E685ABA00786900 /* ExtensionDelegate.swift in Sources */,
+				A0CE17361E685ABA00786900 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CE17181E685ABA00786900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CE17011E685ABA00786900 /* Poke Info */;
+			targetProxy = A0CE17171E685ABA00786900 /* PBXContainerItemProxy */;
+		};
+		A0CE17221E685ABA00786900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CE171E1E685ABA00786900 /* Poke Info WatchKit App */;
+			targetProxy = A0CE17211E685ABA00786900 /* PBXContainerItemProxy */;
+		};
+		A0CE17311E685ABA00786900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CE172D1E685ABA00786900 /* Poke Info WatchKit Extension */;
+			targetProxy = A0CE17301E685ABA00786900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0CE17091E685ABA00786900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CE170A1E685ABA00786900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0CE170E1E685ABA00786900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CE170F1E685ABA00786900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0CE17241E685ABA00786900 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CE17251E685ABA00786900 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CE173E1E685ABA00786900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CE173F1E685ABA00786900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CE17411E685ABA00786900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				INFOPLIST_FILE = "Poke Info WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-Info.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A0CE17421E685ABA00786900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				INFOPLIST_FILE = "Poke Info WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-Info.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A0CE17451E685ABA00786900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				IBSC_MODULE = Poke_Info_WatchKit_Extension;
+				INFOPLIST_FILE = "Poke Info WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-Info.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A0CE17461E685ABA00786900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				IBSC_MODULE = Poke_Info_WatchKit_Extension;
+				INFOPLIST_FILE = "Poke Info WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-Info.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A0CE17491E685ABA00786900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				INFOPLIST_FILE = "Poke Info/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-Info";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0CE174A1E685ABA00786900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				INFOPLIST_FILE = "Poke Info/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-Info";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0CE174C1E685ABA00786900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				INFOPLIST_FILE = "Poke InfoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-InfoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poke Info.app/Poke Info";
+			};
+			name = Debug;
+		};
+		A0CE174D1E685ABA00786900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R9YDVZ74V7;
+				INFOPLIST_FILE = "Poke InfoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BDani.Poke-InfoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poke Info.app/Poke Info";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CE16FD1E685ABA00786900 /* Build configuration list for PBXProject "Poke Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE173E1E685ABA00786900 /* Debug */,
+				A0CE173F1E685ABA00786900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CE17401E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke Info WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE17411E685ABA00786900 /* Debug */,
+				A0CE17421E685ABA00786900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0CE17441E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke Info WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE17451E685ABA00786900 /* Debug */,
+				A0CE17461E685ABA00786900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0CE17481E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE17491E685ABA00786900 /* Debug */,
+				A0CE174A1E685ABA00786900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0CE174B1E685ABA00786900 /* Build configuration list for PBXNativeTarget "Poke InfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE174C1E685ABA00786900 /* Debug */,
+				A0CE174D1E685ABA00786900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CE16FA1E685ABA00786900 /* Project object */;
+}

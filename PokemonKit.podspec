@@ -25,7 +25,7 @@ PokemonKit use Alamofire web requests handling.
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Yeung Yiu Hung" => "hkclex@gmail.com" }
-  s.source           = { :git => "https://github.com/ContinuousLearning/PokemonKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ContinuousLearning/PokemonKit.git"}
   s.social_media_url = 'https://twitter.com/darkcl_dev'
 
   s.ios.deployment_target = '8.0'

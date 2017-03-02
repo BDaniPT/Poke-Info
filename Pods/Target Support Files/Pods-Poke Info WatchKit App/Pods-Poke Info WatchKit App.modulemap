@@ -1,0 +1,6 @@
+framework module Pods_Poke_Info_WatchKit_App {
+  umbrella header "Pods-Poke Info WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}

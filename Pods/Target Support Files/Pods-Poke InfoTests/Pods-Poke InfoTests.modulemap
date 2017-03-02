@@ -1,0 +1,6 @@
+framework module Pods_Poke_InfoTests {
+  umbrella header "Pods-Poke InfoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
